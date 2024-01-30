@@ -38,6 +38,7 @@ public class WebSecurityConfig {
         ldapContextSource.setUrl("ldap://localhost:10389");
         ldapContextSource.setUserDn("uid=admin,ou=system");
         ldapContextSource.setPassword("secret");
+
         return ldapContextSource;
     }
 
